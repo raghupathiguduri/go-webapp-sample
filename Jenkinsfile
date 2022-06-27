@@ -1,4 +1,4 @@
-@Library("raghu-test@main") _
+@Library("raghu-test-2@master") _
 pipeline {
     agent any
     stages {
@@ -14,7 +14,7 @@ pipeline {
                 expression { params.BRANCH != 'develop' }
             }         
             steps {
-                gobuild()
+                gopipeline()
             }
         }
     }
