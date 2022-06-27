@@ -1,4 +1,4 @@
-module github.com/raghupathi/go-webapp-sample
+module github.com/ybkuroki/go-webapp-sample
 
 go 1.18
 
